@@ -1,0 +1,56 @@
+body{
+    background-color: brown;
+    background-image: url("../rasmlar/CLS 63.jpg");
+    background-repeat:no-repeat;
+    background-size: 30%;
+    background-position: 100px  200px;
+    /*background: brown url("../rasmlar/CLS 63.jpg") no-repeat;*/
+}
+.box{
+    color: white;
+    /*border:6px solid white;*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-top-width: 8px;
+    border-right-width: 3px;
+    border-bottom-width: 10px;
+    border-left-width: 6px;
+    border-top-style: double;
+    border-right-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: groove;
+    border-top-color: black;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color: red;
+    border-radius: 30px;
+    text-align: left;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-heigh: 10px;
+}
+
+.block{
+    background-color: white;
+    width: 500px;
+    heith: 150px;
+   /* min-width: 50px;
+    min-height: 50px;*/
+    /*max-width: 500px;
+    max-height: 200px;*/
+    /*margin: 50px 150px 70px 40px;*/
+    /*margin-top: 50px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+    margin-left: 40px;*/
+    margin: 100px auto;
+    /*padding: 30px 50px 20px 40px;*/
+    /*padding-top: 30px;*/
+    padding-right: 50px;
+    /*padding-bottom: 20px;*/
+    padding-left: 40px;
+    box-sizing: border-box;
+}
